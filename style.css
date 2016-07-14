@@ -176,10 +176,14 @@ body {
 }
 
 .hspacejob {
-    margin-bottom: -26px;
+    margin-bottom: 0px;
     margin-top: 2px;
     padding:0px 0px 0px 0px;
     font: normal;
     text-align: center;
     text-justify: inter-word;
+}
+
+.logoimg {
+    width: 30px;
 }
