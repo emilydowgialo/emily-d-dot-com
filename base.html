@@ -27,18 +27,24 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Top</a>
+                <a class="navbar-brand" href="#"></a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#about">About</a>
+                        <a href="#about">Who Am I?</a>
                     </li>
                     <li>
-                        <a href="#services">Experience</a>
+                        <a href="#skills">Skills</a>
                     </li>
                     <li>
-                        <a href="#contact">Contact</a>
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#experience">Experience</a>
+                    </li>
+                    <li>
+                        <a href="#education">Education</a>
                     </li>
                 </ul>
             </div>
@@ -48,31 +54,55 @@
     </nav>
 
     <!-- HEADER IMAGE -->
-    <header class="header-image">
+    <!-- <header class="header-image">
         <div class="headline">
             <div class="container">
                 <h1>Emily Dowgialo</h1>
                 <h2>Software Engineer</h2>
             </div>
         </div>
-    </header>
+    </header> -->
     <!-- /HEADER IMAGE -->
 
+    <!-- POLAROID -->
+    <div class="container polaroiddiv">
+
+        <div class="polaroid">
+            <img src="polaroid.png">
+        </div>
+
+
+    </div><!-- /POLAROID DIV -->
+
     <!-- FIRST DIV AFTER HEADER IMAGE -->
-    <div class="container">
+    <div class="container" id="about">
 
-        <div class="section" id="about">
+        <div class="section about">
 
-            Emily Dowgialo is a passionate and tech-minded self-starter with years of experience under her belt. From a young age, Emily’s fascination with technology evolved into an avocation of teaching herself HTML and CSS. During her high school years, Emily secured numerous freelance jobs, developing websites and fulfilling other artistically driven projects for people within her network. These experiences cultivated transferrable skills, sharpened her creative instincts, and challenged her to adapt to the needs of diverse clientele. After graduating from UC San Diego with a BA in psychology, Emily returned to the Bay Area, determined to enter the tech world. She began her journey at Yelp as a member of the content management team in the User Operations department and was quickly promoted to a Data Management Associate position. Emily’s immersion with Yelp’s engineering teams and an inside look at their backend inspired her return to coding. After completing her course of study at Hackbright, Emily intends to pursue a career as a full stack engineer.
+            <h1 class="hspacetitle">Emily Dowgialo</h1><br>
+            <h3 class="hspacejob">Software Engineer</h3><br><br>
+
+            Lover of tech, code, cats, and sushi. Naturally curious, creative, compassionate
+            team player who reads between the lines.
 
         </div><!-- /ABOUT SECTION -->
 
-        <div class="section" id="skills">
+        <div class="container">
+
+            <div class="titlepic" id="skills">
+
+                <img src="skills.png">
+
+            </div>
+
+        </div><!-- /SKILLS TITLE -->
+
+        <div class="section">
             <div class="row">
 
-            <div class="col-md-4"></div>
+            <div class="col-md-2"></div>
 
-            <div class="col-md-4"><!-- SKILLS LIST -->
+            <div class="col-md-8"><!-- SKILLS LIST -->
 
             <table class="tables">
               <tbody>
@@ -80,31 +110,55 @@
                   <td class="tableskillsleft"><h4>Python</h4>
 
                   </td>
-                  <td class="tableskillstd"><h4>HTML/CSS</h4>
+                  <td class="tableskillstd"><h4>Flask</h4>
+
+                  </td>
+                  <td class="tableskillstd"><h4>Javascript</h4>
+
+                  </td>
+                  <td class="tableskillstd"><h4>HTML</h4>
 
                   </td>
                 </tr>
                 <tr>
-                  <td class="tableskillsleft"><h4>Javascript/JQuery/AJAX</h4>
+                  <td class="tableskillsleft"><h4>CSS</h4>
 
                   </td>
                   <td class="tableskillstd"><h4>SQL</h4>
 
                   </td>
+                  <td class="tableskillstd"><h4>SQLAlchemy</h4>
+
+                  </td>
+                  <td class="tableskillstd"><h4>JSON</h4>
+
+                  </td>
                 </tr>
                 <tr>
-                  <td class="tableskillsleft"><h4>SQLAlchemy</h4>
+                  <td class="tableskillsleft"><h4>AJAX</h4>
+
+                  </td>
+                  <td class="tableskillstd"><h4>JQuery</h4>
 
                   </td>
                   <td class="tableskillstd"><h4>PostgreSQL</h4>
 
                   </td>
+                  <td class="tableskillstd"><h4>Jinja2</h4>
+
+                  </td>
                 </tr>
                 <tr>
-                  <td class="tableskillsleft"><h4>Flask</h4>
+                  <td class="tableskillsleft"><h4>Bootstrap</h4>
 
                   </td>
                   <td class="tableskillstd"><h4>Jinja2</h4>
+
+                  </td>
+                  <td class="tableskillstd"><h4>Git/GitHub</h4>
+
+                  </td>
+                  <td class="tableskillstd"><h4>Photoshop</h4>
 
                   </td>
                 </tr>
@@ -115,6 +169,12 @@
                   <td class="tableskillstd"><h4>Bootstrap</h4>
 
                   </td>
+                  <td class="tableskillstd"><h4>User Generated Content</h4>
+
+                  </td>
+                  <td class="tableskillstd"><h4>Social Media</h4>
+
+                  </td>
                 </tr>
               </tbody>
             </table>
@@ -122,12 +182,22 @@
             </div><!-- /SKILLS LIST -->
 
 
-            <div class="col-md-4"></div>
+            <div class="col-md-2"></div>
 
         </div><!-- /ROW DIV -->
         </div><!-- /SKILLS SECTION -->
 
-        <div class="section" id="projects">
+        <div class="container" id="projects">
+
+            <div class="titlepicproj">
+
+                <img src="projects.png">
+
+            </div>
+
+        </div><!-- /PROJECTS TITLE -->
+
+        <div class="section">
             <div class="row">
 
             <div class="col-md-3">
@@ -177,8 +247,7 @@
                   <td class="restablejobtitle"><h4 class="hspace">Screenshots</h4>
 
                   </td>
-                  <td class="restabledesc"><p class="hspace">
-
+                  <td class="restabledesc">
                         <table class="screenshots">
                             <tbody>
                                 <tr>
@@ -203,16 +272,26 @@
 
         </div><!-- /PROJECTS SECTION -->
 
-        <div class="section" id="resume">
+        <div class="container" id="experience">
+
+            <div class="titlepicexp">
+
+                <img src="experience.png">
+
+            </div>
+
+        </div><!-- /EXPERIENCE TITLE -->
+
+        <div class="section">
 
 
             <table class="tablez">
               <tbody>
                 <tr>
-                  <td class="restablejobtitle"><h3 class="hspace">Yelp</h3>
+                  <td class="restablejobtitle"><h3 class="hspaceleft">Yelp</h3>
 
                     <br>
-                        <h6 class="hspace">2014 - 2016</h6>
+                        <h6 class="hspaceleft">2014 - 2016</h6>
 
                   </td>
                   <td class="restabledesc"><h3 class="hspace">Data Management Associate</h3>
@@ -223,7 +302,7 @@
 
                     <br><br><p class="hspace">
 
-                    I worked on high-volume data improvement projects pertaining to US Yelp business listings, communicated with remote teams and Yelp business account holders and users using Desk.com, coordinated with remote teams to update relevant local business information, worked with the Revenue, Sales, and Ad Ops teams to research businesses seeking to advertise on Yelp and make sure their business information is factual and up-to-date, and performed quality assurance on database updates conducted by remote teams.</p>
+                    Worked on high-volume data improvement projects pertaining to US Yelp business listings, communicated with remote teams, Yelp business account holders, and users. Coordinated with remote teams to update relevant local business information. Worked with Revenue, Sales, and Ad Ops teams to research businesses seeking to advertise on Yelp. Performed quality assurance on database updates.</p>
 
                     <br><br>
 
@@ -235,16 +314,16 @@
 
                     <br><br><p class="hspace">
 
-                    I ensured content quality by evaluating user-generated content against Yelp's guidelines, often performing large clean-up projects. I also participated in a committee tasked with re-writing and improving messaging sent to users using help desk software regarding their content.</p>
+                    Ensured content quality by evaluating user-generated content against Yelp's guidelines, often performing large clean-up projects. Participated in a committee tasked with re-writing and improving messaging sent to users regarding content.</p>
 
                   </td>
                 </tr>
                 <tr>
-                  <td class="restablejobtitle"><h3 class="hspace">SLATE contemporary</h3>
+                  <td class="restablejobtitle"><h3 class="hspaceleft">SLATE contemporary</h3>
 
                     <br>
 
-                        <h6 class="hspace">2014</h6>
+                        <h6 class="hspaceleft">2014</h6>
 
                     <br>
 
@@ -258,11 +337,11 @@
                   </td>
                 </tr>
                 <tr>
-                  <td class="restablejobtitle"><h3 class="hspace">Bloom Machine</h3>
+                  <td class="restablejobtitle"><h3 class="hspaceleft">Bloom Machine</h3>
 
                     <br>
 
-                        <h6 class="hspace">2013 - 2014</h6>
+                        <h6 class="hspaceleft">2013 - 2014</h6>
 
                   </td>
                   <td class="restabledesc"><h3 class="hspace">Co-Founder</h3>
@@ -279,21 +358,30 @@
 
         </div><!-- /RESUME SECTION -->
 
+        <div class="container" id="education">
 
-        <div class="section" id="education">
+            <div class="titlepicedu">
+
+                <img src="education.png">
+
+            </div>
+
+        </div><!-- /EDUCATION TITLE -->
+
+        <div class="section">
 
             <table class="tablez">
               <tbody>
                 <tr>
-                  <td class="restablejobtitle"><h3 class="hspace">Hackbright Academy</h3>
+                  <td class="restablejobtitle"><h3 class="hspaceleft">Hackbright Academy</h3>
 
                     <br>
 
-                        <h5 class="hspace">Software Engineering</h5>
+                        <h5 class="hspaceleft">Software Engineering</h5>
 
                     <br>
 
-                        <h5 class="hspace">2016</h5>
+                        <h5 class="hspaceleft">2016</h5>
 
                   </td>
                   <td class="restabledesc">
@@ -309,15 +397,15 @@
                   </td>
                 </tr>
                 <tr>
-                  <td class="restablejobtitle"><h3 class="hspace">UC San Diego</h3>
+                  <td class="restablejobtitle"><h3 class="hspaceleft">UC San Diego</h3>
 
                     <br>
 
-                        <h5 class="hspace">Psychology</h5>
+                        <h5 class="hspaceleft">Psychology</h5>
 
                     <br>
 
-                        <h5 class="hspace">2011</h5>
+                        <h5 class="hspaceleft">2011</h5>
 
                   </td>
                   <td class="restabledesc"><p class="hspace">

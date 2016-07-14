@@ -24,7 +24,7 @@ body {
     padding-bottom: 1em;
     padding: 10px 0;
     overflow: hidden;
-    height: 100px;
+    height: 160px;
     vertical-align: top;
 }
 
@@ -32,7 +32,7 @@ body {
     padding-bottom: 1em;
     padding: 10px 0;
     overflow: hidden;
-    height: 100px;
+    height: 160px;
     vertical-align: top;
 }
 
@@ -70,6 +70,15 @@ body {
     text-justify: inter-word;
 }
 
+.hspaceleft {
+    margin-bottom: -26px;
+    margin-top: 10px;
+    padding:0px 0px 0px 0px;
+    font: normal;
+    text-align: right;
+    text-justify: inter-word;
+}
+
 .spentlogo {
     width: 250px;
 }
@@ -103,4 +112,74 @@ body {
 .screenimg img {
     width: 100%;
     height: auto;
+}
+
+.titlepic {
+    margin: 0 auto;
+}
+
+.titlepic img {
+    height: 28px;
+    margin: auto;
+    display: block;
+}
+
+.titlepicproj img {
+    height: 35px;
+    margin: auto;
+    display: block;
+}
+
+.titlepicexp img {
+    height: 35px;
+    margin: auto;
+    display: block;
+}
+
+.titlepicedu img {
+    height: 28px;
+    margin: auto;
+    display: block;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.container.polaroiddiv {
+    width: 400px;
+    padding: 10px;
+}
+
+.polaroid img {
+    width: 400px;
+    margin: auto;
+}
+
+.section.about {
+    text-align: center;
+}
+
+.hspacetitle {
+    margin-bottom: -26px;
+    margin-top: 1px;
+    padding:0px 0px 0px 0px;
+    font: normal;
+    text-align: center;
+    text-justify: inter-word;
+}
+
+.hspacejob {
+    margin-bottom: -26px;
+    margin-top: 2px;
+    padding:0px 0px 0px 0px;
+    font: normal;
+    text-align: center;
+    text-justify: inter-word;
 }
