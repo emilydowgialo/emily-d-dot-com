@@ -1,0 +1,106 @@
+body {
+    margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.header-image {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: url('http://placehold.it/1900x500') no-repeat center center scroll;
+    background-size: cover;
+}
+
+.headline {
+    padding: 120px 0;
+}
+
+.section {
+    margin: 50px 0;
+}
+
+.restablejobtitle {
+    width: 30%;
+    text-align: right;
+    padding-bottom: 1em;
+    padding: 10px 0;
+    overflow: hidden;
+    height: 100px;
+    vertical-align: top;
+}
+
+.restabledesc {
+    padding-bottom: 1em;
+    padding: 10px 0;
+    overflow: hidden;
+    height: 100px;
+    vertical-align: top;
+}
+
+.tablez {
+    width: 100%;
+    border-spacing: 50px 0;
+    border-collapse: separate;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.tables {
+    width: 100%;
+    border-spacing: 5px 0;
+}
+
+.tableskillsleft {
+    text-align: center;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+.tableskillstd {
+    text-align: center;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+.hspace {
+    margin-bottom: -26px;
+    margin-top: 10px;
+    padding:0px 0px 0px 0px;
+    font: normal;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.spentlogo {
+    width: 250px;
+}
+
+.spentlogo img {
+    width: 100%;
+    height: auto;
+}
+
+.github {
+    width: 30px;
+}
+
+.github img {
+    width: 100%;
+    height: auto;
+}
+
+.screenshots {
+    width: 100%;
+    border-spacing: 5px 0;
+    border-collapse: separate;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.screenimg {
+    width: 200px;
+}
+
+.screenimg img {
+    width: 100%;
+    height: auto;
+}
