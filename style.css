@@ -1,5 +1,6 @@
 body {
     margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-image: url("sayagata-400px.png");
 }
 
 .header-image {
@@ -153,13 +154,15 @@ body {
 }
 
 .container.polaroiddiv {
-    width: 400px;
-    padding: 10px;
+    width: 100%;
+    padding: 35px;
+    margin: auto;
 }
 
 .polaroid img {
-    width: 400px;
+    width: 280px;
     margin: auto;
+    display: block;
 }
 
 .section.about {
@@ -186,4 +189,16 @@ body {
 
 .logoimg {
     width: 30px;
+}
+
+.modalimg {
+    width: 100%;
+}
+
+.modalimg img {
+    width: 100%;
+}
+
+a {
+    cursor:pointer;
 }
