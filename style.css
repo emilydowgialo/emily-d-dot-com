@@ -105,6 +105,8 @@ tr {
   height: auto;
   font-family: "Helvetica", "arial";
   margin-top: 0px;
+  letter-spacing: 1px;
+  line-height: 200%;
 }
 
 td {
@@ -122,7 +124,7 @@ td {
 }
 
 .in-the-space-between {
-  height: 2px;
+  height: 0px;
 }
 
 h4 {
